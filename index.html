@@ -25,12 +25,13 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HS9289Y86G"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+   window.dataLayer = window.dataLayer || [];
+   function gtag() { dataLayer.push(arguments); }
+   gtag('js', new Date());
 
-  gtag('config', 'G-HS9289Y86G');
+   gtag('config', 'G-HS9289Y86G');
 </script>
+
 <body>
    <!--==================== PRELOADER ====================-->
    <div id="preloader">
@@ -73,10 +74,10 @@
          <div class="nav__actions">
             <!--Theme button onclick="playSound();"-->
 
-            <i class="ri-moon-line change-theme" id="theme-button"></i>
+            <i class="ri-moon-line change-theme" id="theme-button" onclick="playSound2()"></i>
 
             <!--Toggle button-->
-            <div class="nav__toggle" id="nav-toggle" >
+            <div class="nav__toggle" id="nav-toggle">
                <i class="ri-apps-2-line"></i>
             </div>
          </div>
@@ -92,8 +93,7 @@
          <div class="home__container container grid">
             <div class="home__perfil perfil">
                <div class="perfil__content">
-                  <img src="assets/img/CorradoPatruno_05-06-2023.png" alt="image"
-                     class="perfil__img">
+                  <img src="assets/img/CorradoPatruno_05-06-2023.png" alt="image" class="perfil__img">
                </div>
             </div>
 
@@ -130,143 +130,252 @@
             My Work Experiences
          </h2>
 
-         <div class="services__container container grid">
+         <div class="services__container container">
+            <div class="services__modal">
+               <div class="services__modal-content">
+                  <i class="ri-close-line services__modal-close"></i>
 
-            <Article class="service__card">
-               <!--<i class="ri-code-s-slash-fill services__icon"></i>-->
-               <img src="assets/img/Accenture-Logo.png" alt="img" class="services__icon" id="logo">
-               <h2 class="services__title">SAP Integration Architect</h2>
-               <p class="services__description">
-                  I specialize in integrating SAP environments to optimize data flow and system coherence,
-                  enhancing business efficiency and technological synergy.
-               </p>
+                  <h2 class="services__modal-title">Saas Paas Solution Designer</h2>
 
-               <button class="services__button button">Know More</button>
+                  <ul class="services__modal-list grid">
+                     <li class="services__modal-item">
+                        Requirements Analysis.
+                     </li>
 
-               <div class="services__modal">
-                  <div class="services__modal-content">
-                     <i class="ri-close-line services__modal-close"></i>
+                     <li class="services__modal-item">
+                        Architecture Design.
+                     </li>
 
-                     <h2 class="services__modal-title">SAP Integration Architect </h2>
+                     <li class="services__modal-item">
+                        Performance Optimization.
+                     </li>
 
-                     <ul class="services__modal-list grid">
-                        <li class="services__modal-item">
-                           SAP PO/PI.
-                        </li>
+                     <li class="services__modal-item">
+                        Validate Financial Impact.
+                     </li>
 
-                        <li class="services__modal-item">
-                           SAP ABAP.
-                        </li>
+                     <li class="services__modal-item">
+                        Identify Opportunities.
+                     </li>
 
-                        <li class="services__modal-item">
-                           SAP BTP.
-                        </li>
+                     <li class="services__modal-item">
+                        Plan technological Roadmaps.
+                     </li>
+
+                  </ul>
+               </div>
+            </div>
+
+            <div class="services__modal">
+               <div class="services__modal-content">
+                  <i class="ri-close-line services__modal-close"></i>
+
+                  <h2 class="services__modal-title">SAP Integration Architect </h2>
+
+                  <ul class="services__modal-list grid">
+                     <li class="services__modal-item">
+                        SAP PO/PI.
+                     </li>
+
+                     <li class="services__modal-item">
+                        SAP ABAP.
+                     </li>
+
+                     <li class="services__modal-item">
+                        SAP BTP.
+                     </li>
+
+                     <li class="services__modal-item">
+                     SAP CPI.
+                     </li>
 
                         <li class="services__modal-item">
                            SAP Integration Suite.
                         </li>
 
-                        <li class="services__modal-item">
-                           Java Mapping.
-                        </li>
+                     <li class="services__modal-item">
+                        Java Mapping.
+                     </li>
 
-                     </ul>
-                  </div>
+                  </ul>
                </div>
-            </Article>
+            </div>
 
-            <Article class="service__card">
-               <!-- <i class="ri-pen-nib-line services__icon"></i> -->
-               <img src="assets/img/IBM_logo.png" alt="img" class="services__icon">
-               <h2 class="services__title">SAP Integration Architect</h2>
-               <p class="services__description">
-                  I specialize in integrating SAP environments to optimize data flow and system coherence,
-                  enhancing business efficiency and technological synergy.
-               </p>
+            <div class="services__modal">
+               <div class="services__modal-content">
+                  <i class="ri-close-line services__modal-close"></i>
 
-               <button class="services__button button">Know More</button>
-               <div class="services__modal">
-                  <div class="services__modal-content">
-                     <i class="ri-close-line services__modal-close"></i>
+                  <h2 class="services__modal-title">SAP Integration Architect</h2>
 
-                     <h2 class="services__modal-title">SAP Integration Architect</h2>
+                  <ul class="services__modal-list grid">
+                     <li class="services__modal-item">
+                        SAP PO/PI.
+                     </li>
 
-                     <ul class="services__modal-list grid">
-                        <li class="services__modal-item">
-                           SAP PO/PI.
-                        </li>
+                     <li class="services__modal-item">
+                        SAP ABAP.
+                     </li>
 
-                        <li class="services__modal-item">
-                           SAP ABAP.
-                        </li>
+                     <li class="services__modal-item">
+                        SAP BTP.
+                     </li>
 
-                        <li class="services__modal-item">
-                           SAP BTP.
-                        </li>
+                     <li class="services__modal-item">
+                        SAP Integration Suite.
+                     </li>
 
-                        <li class="services__modal-item">
-                           SAP Integration Suite.
-                        </li>
+                     <li class="services__modal-item">
+                        Java Mapping.
+                     </li>
 
-                        <li class="services__modal-item">
-                           Java Mapping.
-                        </li>
-
-                     </ul>
-                  </div>
+                  </ul>
                </div>
-            </Article>
+            </div>
 
-            <Article class="service__card">
-               <i class="ri-code-s-slash-fill services__icon"></i>
-               <h2 class="services__title">Freelance Web Developer</h2>
-               <p class="services__description">I create custom, responsive websites designed to
-                  enhance user experience and elevate brand presence online,
-                  ensuring high performance across all devices.
-               </p>
+            <div class="services__modal">
+               <div class="services__modal-content">
+                  <i class="ri-close-line services__modal-close"></i>
 
-               <button class="services__button button">Know More</button>
-               <div class="services__modal">
-                  <div class="services__modal-content">
-                     <i class="ri-close-line services__modal-close"></i>
+                  <h2 class="services__modal-title">Operation Managment Staff</h2>
 
-                     <h2 class="services__modal-title">Freelance Web Developer</h2>
+                  <ul class="services__modal-list grid">
+                     <li class="services__modal-item">
+                        Project management skills.
+                     </li>
 
-                     <ul class="services__modal-list grid">
-                        <li class="services__modal-item">
-                           HTML.
-                        </li>
+                     <li class="services__modal-item">
+                        Event logistics coordination.
+                     </li>
 
-                        <li class="services__modal-item">
-                           CSS.
-                        </li>
+                     <li class="services__modal-item">
+                        Problem solving.
+                     </li>
 
-                        <li class="services__modal-item">
-                           Java Script.
-                        </li>
+                     <li class="services__modal-item">
+                        Staff coordination.
+                     </li>
 
-                        <li class="services__modal-item">
-                           Wordpress.
-                        </li>
+                     <li class="services__modal-item">
+                        EXCEL Skills.
+                     </li>
 
-                        <li class="services__modal-item">
-                           Elementor
-                        </li>
-
-                        <li class="services__modal-item">
-                           Figma
-                        </li>
-
-                        <li class="services__modal-item">
-                           Boostrap
-                        </li>
-
-                     </ul>
-                  </div>
+                  </ul>
                </div>
-            </Article>
+            </div>
 
+            <div class="services__modal">
+               <div class="services__modal-content">
+                  <i class="ri-close-line services__modal-close"></i>
+
+                  <h2 class="services__modal-title">Freelance Web Developer</h2>
+
+                  <ul class="services__modal-list grid">
+                     <li class="services__modal-item">
+                        HTML.
+                     </li>
+
+                     <li class="services__modal-item">
+                        CSS.
+                     </li>
+
+                     <li class="services__modal-item">
+                        Java Script.
+                     </li>
+
+                     <li class="services__modal-item">
+                        Wordpress.
+                     </li>
+
+                     <li class="services__modal-item">
+                        Elementor
+                     </li>
+
+                     <li class="services__modal-item">
+                        Figma
+                     </li>
+
+                     <li class="services__modal-item">
+                        Boostrap
+                     </li>
+
+                  </ul>
+               </div>
+            </div>
+
+            <div class="swiper mySwiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <Article class="service__card">
+                        <!--<i class="ri-code-s-slash-fill services__icon"></i>-->
+                        <img src="assets/img/logoOlivetti.png" alt="img" class="services__icon" >
+                        <h2 class="services__title">Saas Paas Solution Designer</h2>
+                        <p class="services__description">
+                           I design customized SaaS and PaaS solutions, optimizing architecture and integration.
+                           Functional design and security for scalability and high performance.
+                        </p>
+                        <button class="services__button button" onclick="playSound()">Know More</button>
+                     </Article>
+                  </div>
+
+                  <div class="swiper-slide">
+                     <Article class="service__card">
+                        <!--<i class="ri-code-s-slash-fill services__icon"></i>-->
+                        <img src="assets/img/Accenture-Logo.png" alt="img" class="services__icon" id="logo">
+                        <h2 class="services__title">SAP Integration Architect</h2>
+                        <p class="services__description">
+                           Specialized in integrating SAP environments to optimize data flow, improve business
+                           efficiency, and ensure technological consistency.
+                        </p>
+                        <button class="services__button button" onclick="playSound()">Know More</button>
+                     </Article>
+                  </div>
+
+                  <div class="swiper-slide">
+                     <Article class="service__card">
+                        <!-- <i class="ri-pen-nib-line services__icon"></i> -->
+                        <img src="assets/img/IBM_logo.png" alt="img" class="services__icon">
+                        <h2 class="services__title">SAP Integration Architect</h2>
+                        <p class="services__description">
+                           Specialized in integrating SAP environments to optimize data flow, improve business
+                           efficiency, and ensure technological consistency.
+                        </p>
+                        <button class="services__button button" onclick="playSound()">Know More</button>
+                     </Article>
+                  </div>
+
+                  <div class="swiper-slide">
+                     <Article class="service__card">
+                        <!-- <i class="ri-pen-nib-line services__icon"></i> -->
+                        <img src="assets/img/Ted-X_Barletta.png" alt="img" class="services__icon" width="150"
+                           height="44">
+                        <h2 class="services__title">Operation Managment Staff</h2>
+                        <p class="services__description">
+                           I support the operational management of TEDx events, coordinating logistics and resources to
+                           ensure efficiency and quality at every stage.
+                        </p>
+                        <button class="services__button button" onclick="playSound()">Know More</button>
+                     </Article>
+                  </div>
+
+                  <div class="swiper-slide">
+                     <Article class="service__card">
+                        <i class="ri-code-s-slash-fill services__icon"></i>
+                        <h2 class="services__title">Freelance Web Developer</h2>
+                        <p class="services__description">
+                           I develop customized websites, optimized for usability and performance. Modern design and
+                           secure for unique experiences.
+                        </p>
+                        <button class="services__button button" onclick="playSound()">Know More</button>
+                     </Article>
+                  </div>
+
+               </div>
+               <div class="swiper-button-next"></div>
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-pagination swiper-pagination2"></div>
+            </div>
          </div>
+
       </section>
 
       <!--==================== WORK ====================-->
@@ -401,7 +510,7 @@
             </div>
 
             <!-- Pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination swiper-pagination1"></div>
 
          </div>
 

@@ -28,11 +28,46 @@ const swiperTestimonial = new Swiper('.testimonial__swiper', {
     grabCursor: true,
 
     pagination: {
-        el: '.swiper-pagination',
+        el: '.swiper-pagination1',
         dynamicBullets: true,
         clickable: true,
     },
 })
+
+/*=============== SWIPER WORKS EXPERIENCE ===============*/
+  
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+    spaceBetween:30,
+     grabCursor: true,
+     pagination: {
+        el: '.swiper-pagination2',
+        dynamicBullets: true,
+        clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+      breakpoints: {
+        "@0.00": {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        "@0.75": {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        "@1.00": {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        "@1.50": {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+      },
+    });
 
 /*=============== SHOW SCROLL UP ===============*/
 const scrollUp = () => {

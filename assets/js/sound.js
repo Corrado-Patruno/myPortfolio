@@ -1,12 +1,14 @@
 function playSound() {
-  const audio = new Audio('./assets/sound_effects/light-switch-off-86314.mp3');
-  audio.volume = 0.1;
+  const audio = new Audio('./assets/sound_effects/soundbutton.wav');
+  audio.volume = 0.5;
   audio.play();
 }
 
 
 function playSound2() {
-  const audio = new Audio('./assets/sound_effects/happy-pop-2-185287.mp3');
-  audio.volume = 0.1;
+  const audio = new Audio('./assets/sound_effects/switch.wav');
+  audio.volume = 0.5;
   audio.play();
 }
+
+
