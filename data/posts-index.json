@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "personal-log-01",
+    "title": "Personal Log 01",
+    "excerpt": "Avvio trasmissione: il mio primo blog.",
+    "date": "2025-10-12",
+    "tags": ["personal branding", "tecnologia"],
+    "category": "Lifestyle",
+    "cover": "assets/img/post-1.jpg"
+  },
+  {
+    "slug": "personal-log-02",
+    "title": "Personal Log 02",
+    "excerpt": "Restare, costruire, appartenere. Il mio TEDx 2025",
+    "date": "2025-10-24",
+    "tags": ["community", "new project"],
+    "category": "community",
+    "cover": "assets/img/post-2.jpg"
+  }
+]

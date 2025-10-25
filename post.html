@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Blog article" />
+
+  <!--=============== GOOGLE ANALYTICS 4 ===============-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HS9289Y86G"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HS9289Y86G');
+  </script>
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  
+  <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" />
+
+  <title id="page-title">Article</title>
+  <link rel="canonical" href="https://corradopatruno.it/post.html" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://corradopatruno.it/"},
+      {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://corradopatruno.it/blog.html"}
+    ]
+  }
+  </script>
+</head>
+
+<body class="page-post header-pages">
+  
+  <!--==================== HEADER ====================-->
+  <header id="header" class="header header-pages">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">CP</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="blog.html" class="nav__link">Blog</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="about.html" class="nav__link">About Me</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="work.html" class="nav__link">Portfolio</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="contact.html" class="button">Contact Me</a>
+          </li>
+        </ul>
+        <!-- Close button -->
+        <div class="nav__close" id="nav-close" aria-label="Chiudi menu" role="button" tabindex="0">
+          <i class="ri-close-line" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      <div class="nav__actions">
+        <!-- Theme button -->
+        <i class="ri-moon-line change-theme" id="theme-button" aria-label="Cambia tema" role="button" tabindex="0"></i>
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle" aria-label="Apri menu" role="button" tabindex="0">
+          <i class="ri-apps-2-line" aria-hidden="true"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!--==================== MAIN ====================-->
+  <main id="main" class="section">
+
+    <!--==================== ARTICLE ====================-->
+    <div class="container">
+      <article id="post" class="post" itemscope itemtype="https://schema.org/BlogPosting">
+        <div class="post-header">
+          <a href="blog.html" class="post-back-arrow" aria-label="Torna al blog" title="Torna al blog">
+            <i class="ri-arrow-left-line"></i>
+          </a>
+          <h1 class="section__title post-title" itemprop="headline"></h1>
+        </div>
+        <div class="post-meta">
+          <time class="post-date" datetime="" itemprop="datePublished"></time>
+          <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+            <meta itemprop="name" content="Corrado Patruno" />
+          </span>
+          <span itemprop="publisher" itemscope itemtype="https://schema.org/Person">
+            <meta itemprop="name" content="Corrado Patruno" />
+          </span>
+          <span class="post-tags"></span>
+        </div>
+
+        <img class="post-cover" alt="" loading="lazy" hidden itemprop="image" />
+
+        <div id="post-content" class="post-content" itemprop="articleBody"></div>
+      </article>
+    </div>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer id="site-footer" class="footer">
+    <div class="footer__container container grid">
+      <div class="footer__content grid">
+        <a href="index.html" class="footer__logo">CP</a>
+
+
+        <ul class="footer__links">
+          <li>
+            <a href="blog.html" class="footer__link">Blog</a>
+          </li>
+          <li>
+            <a href="about.html" class="footer__link">About Me</a>
+          </li>
+          <li>
+            <a href="work.html" class="footer__link">Portfolio</a>
+          </li>
+          <li>
+            <a href="contact.html" class="footer__link">Contact Me</a>
+          </li>
+        </ul>
+
+
+
+        <div class="footer__social">
+          <a href="https://github.com/Corrado-Patruno" target="_blank" rel="noopener" class="footer__social-link">
+            <i class="ri-github-fill"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/corrado-patruno-361995185/" target="_blank" rel="noopener" class="footer__social-link">
+            <i class="ri-linkedin-box-fill"></i>
+          </a>
+          <a href="https://twitter.com/patruno_corrado" target="_blank" rel="noopener" class="footer__social-link">
+            <i class="ri-twitter-x-line"></i>
+          </a>
+        </div>
+      </div>
+
+    <span class="footer__copy">&#169; All Rights Reserved By Corrado Patruno</span>
+  </div>
+</footer>
+
+<!--========== SCROLL UP ==========-->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class="ri-arrow-up-line"></i>
+</a>
+
+<!--=============== MAIN JS ===============-->
+<script src="assets/js/main.js" defer></script>
+  
+  <!--=============== GA4 EVENTS ===============-->
+  <script src="assets/js/ga-events.js" defer></script>
+  
+  <!--=============== POST JS ===============-->
+  <script type="module" src="assets/js/post.js"></script>
+</body>
+
+</html>
